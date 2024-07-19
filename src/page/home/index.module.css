@@ -1,0 +1,116 @@
+.top{
+    width: 100%;
+    height: 72px;
+border-bottom: 2px #ffff;
+
+     position: sticky;
+     background-color: #ffff;
+    
+    top: 0;
+  display: flex;
+  justify-content: space-between;
+  line-height: 72px;
+  z-index: 9999;
+
+  
+ 
+}
+.topUserAvatar{
+    padding-right: 32px;
+
+}
+.topImg{
+    border-radius: 50%;
+   margin: 13px 0 0 0;
+}
+.topcreate{
+    margin-right: -46px;
+    width: 88px;
+    height: 40px;
+    background-color: #8B3DFF;
+    border: none;
+    color: white;
+    border-radius: 10px;
+}
+.topIpt{
+    width: 240px;
+    height: 40px;
+    line-height: 40px;
+}
+.topIcons{
+    display: flex;
+    justify-content: space-between;
+   
+
+}
+.topIcons div{
+  margin-left: 16px;
+   
+
+}
+.topMenus{
+    padding-left: 16px;
+}
+
+.topLogo{
+   margin-top: 24px;
+}
+.topcreatemodule{
+   width: 366px;
+   height: 700px;
+   background-color: white;
+   position: fixed;
+   right: 84px;
+   top: 73px;
+   border-radius: 10px;
+   z-index: 9999;
+
+}
+.topcreatemoduletop{
+    height: 40px;
+    margin: 0 10px;
+    line-height: 40px;
+    width: 337px;
+}
+.topcreatemodulecenter{
+    height:480px ;
+
+    overflow-y: scroll;
+     margin: 0 10px;
+}
+.topcreatemodulebottom{
+    height: 144px;
+    background-color: blue;
+     margin: 0 10px;
+}
+.topUl li{
+    width: 338px;
+        list-style:none;
+        height: 40px;
+   
+        margin-left: -39px;
+       
+       
+    
+}
+.toplink{
+    text-decoration: none;
+    color: black;
+}
+.center{
+    width: 100%;
+   flex: 1;
+   background-color: red;
+   margin-bottom: 10px;
+}
+/* .aa{
+    :global{
+ .tabs-tab-active .ant-tabs-tab-btn{
+        color: white;
+    }
+    }
+   
+} */
+ .aa :global(.tabs-tab-active){
+color: white;
+ }
